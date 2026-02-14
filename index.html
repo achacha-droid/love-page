@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Love Album Page</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  background:#990000;
+  font-family:'Playfair Display', serif;
+}
+
+/* container putih */
+.section{
+  max-width:1000px;
+  margin:80px auto;
+  background:#eee;
+  padding:40px;
+  text-align:center;
+}
+
+/* judul */
+.title{
+  font-size:28px;
+  margin-bottom:30px;
+}
+
+/* galeri foto */
+.gallery{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.gallery img{
+  width:280px;
+  height:280px;
+  object-fit:cover;
+  border:3px solid #900;
+}
+
+/* subtitle */
+.subtitle{
+  margin:50px 0;
+  font-size:24px;
+}
+
+/* music section */
+.music{
+  display:flex;
+  gap:30px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.album{
+  width:220px;
+}
+
+.album img{
+  width:100%;
+  border-radius:6px;
+}
+
+.quote{
+  margin-top:10px;
+  font-size:14px;
+  font-style:italic;
+}
+
+footer{
+  margin-top:25px;
+  font-size:14px;
+  color:#555;
+}
+</style>
+</head>
+
+<body>
+
+<!-- SECTION 1 -->
+<div class="section">
+  <div class="title">
+    You too divine to just be mine
+  </div>
+
+  <div class="gallery">
+    <img src="photo1.jpg">
+    <img src="photo2.jpg">
+    <img src="photo3.jpg">
+  </div>
+
+  <footer>made by yourname</footer>
+</div>
+
+<!-- SECTION 2 -->
+<div class="section">
+  <div class="subtitle">
+    Girl, I'm so in love with you
+  </div>
+
+  <p>songs that remind me of you</p>
+</div>
+
+<!-- SECTION 3 -->
+<div class="section">
+  <div class="subtitle">
+    You remind me of the color Blue
+  </div>
+
+  <div class="music">
+    <div class="album">
+      <img src="album1.jpg">
+      <div class="quote">
+        You're the star I look for every night...
+      </div>
+    </div>
+
+    <div class="album">
+      <img src="album2.jpg">
+      <div class="quote">
+        The sun don't shine when I'm alone...
+      </div>
+    </div>
+
+    <div class="album">
+      <img src="album3.jpg">
+      <div class="quote">
+        You really love me...
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
